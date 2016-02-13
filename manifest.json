@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "RN Prevent Double Tab",
+  "description": "This extension will close duplicated tabs.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "iconOff.png"
+  },
+  "permissions": [
+    "activeTab",
+    "background",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
